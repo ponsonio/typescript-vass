@@ -71,6 +71,14 @@ function infiniteLoop(): never {
     }
 }
 
+//Type Assertion ( ~cast)
+
+let someValue: any = "this is a string";
+
+let strLength: number = (<string>someValue).length;
+
+
+
 
 //return
 
